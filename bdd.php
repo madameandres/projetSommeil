@@ -6,11 +6,6 @@ function connect()
 	$pwd = "";
 	$database = "projetSante";
 
-	/*$hostname = "localhost";
-	$user = "id20625272_pouet";
-	$pwd = "WGF1[NN>]bhzs2vB";
-	$database = "id20625272_sante";*/
-
 	try {
 		$mysqlConnection = new PDO('mysql:host=' . $hostname . ';dbname=' . $database, $user, $pwd);
 		$mysqlConnection->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
