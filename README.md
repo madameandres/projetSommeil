@@ -16,4 +16,4 @@ login : admin@admin.fr
 password : admin
 
 
-Créer une campgane et c'est parti !
+Créer une campagne et c'est parti !
