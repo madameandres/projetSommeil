@@ -1,0 +1,165 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styles pour le conteneur principal */
+#container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+header {
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+    font-family: 'DotGothic16', 'Pacifico', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+    font-family: 'Pacifico', cursive;
+    background-color: rgb(12, 124, 128);
+    color:white;
+    font-size: 38px;
+}
+
+.surligne {
+    color: rgb(12, 124, 128);
+}
+
+/* Styles pour les paragraphes */
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* Styles pour le formulaire */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"],
+input[type="reset"],
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Styles pour le fieldset */
+fieldset {
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+input[type="radio"],
+fieldset label {
+    display: inline;
+    vertical-align: middle;
+    font-weight: normal;
+    padding-left: 10px;
+    padding-bottom: 7px;
+}
+
+fieldset div {
+    margin-bottom: 0px;
+}
+
+footer {
+    text-align: center;
+}
+
+div .center {
+    text-align: center;
+}
+
+#cgu {
+    margin-bottom: 0px;
+}
+
+table,
+td,
+tr,
+th {
+    border: 1px solid rgb(12, 124, 128);
+    border-collapse: collapse;
+}
+
+td {
+    padding-left: 5px;
+}
+
+th {
+    background-color: #0c7c80;
+    color: white;
+}
+
+tr:hover {
+    background-color: rgb(12, 124, 128);
+    color: white;
+}
+
+/* Styles pour les petits écrans */
+@media screen and (max-width: 400px) {
+    /* Réduire la taille de l'en-tête */
+    header {
+        font-size: 48px;
+    }
+
+    /* Réduire la taille du texte dans les paragraphes */
+    p,label {
+        font-size: 16px;
+    }
+
+    /* Réduire la taille des champs de saisie */
+    input,
+    select {
+        font-size:16px;
+    }
+
+    /* Ajuster la largeur du conteneur principal */
+    #container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+}
+
+/* Styles pour les petits écrans en mode paysage */
+@media screen and (max-width: 750px) and (orientation:landscape){
+    /* Réduire davantage la taille de l'en-tête */
+    header {
+        font-size: 20px;
+    }
+
+    /* Réduire davantage la taille du texte dans les paragraphes */
+    p {
+        font-size: 16px;
+    }
+
+    /* Réduire davantage la taille des champs de saisie */
+    input,
+    select {
+        font-size: 16px;
+    }
+}

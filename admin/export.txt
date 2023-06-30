@@ -1,0 +1,9 @@
+id_sommeil;jour;prenom;nom;heure_coucher;heure_endormissement;heure_lever;temps_sommeil;
+fatigue;activite;campagne
+46;Jour 2;Stéphanie;ANDRES;2023-06-04 00:00:00;2023-06-04 00:00:00;2023-06-05 14:26:00;38h26;5;Ecran;3
+44;Jour 2;Stéphanie;ANDRES;2023-06-04 00:00:00;2023-06-04 00:00:00;2023-06-05 14:21:00;38h21;5;Activité sportive;3
+42;Jour 1;Stéphanie;ANDRES;2023-06-04 23:00:00;2023-06-04 23:00:00;2023-06-05 07:00:00;8h00;1;Lecture;3
+45;Jour 1;Stéphanie;ANDRES;2023-06-04 00:00:00;2023-06-04 00:00:00;2023-06-05 14:21:00;38h21;2;Lecture;3
+43;Jour 1;Stéphanie;ANDRES;2023-06-04 00:00:00;2023-06-04 00:00:00;2023-06-05 14:20:00;38h20;5;Ecran;3
+47;Jour 1;Virginie;ANDRES;2023-06-04 00:00:00;2023-06-04 00:00:00;2023-06-05 14:27:00;38h27;5;Ecran;3
+48;Jour 1;Pouet;CONTRE ATTAQUE;2023-06-04 23:00:00;2023-06-04 23:30:00;2023-06-05 06:29:00;6h59;5;Ecran;3
