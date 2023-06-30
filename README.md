@@ -6,7 +6,7 @@
 # Comment l'utiliser ?
 
 - Héberger les sources chez un hébergeur (gratuit : https://fr.000webhost.com/)
-- Créer la Base de données
+- Jouer le script projetSante.sql
 - Modifier les CGU
 - Modifier le fichier bdd.php pour y reporter vos identifiants
 
